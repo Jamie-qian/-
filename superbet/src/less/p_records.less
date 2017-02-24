@@ -1,0 +1,153 @@
+//--------------header--------------------------
+header{
+	width:100%;
+	height:0.44rem;
+	background:#e43134;
+	position: relative;
+	h2{
+		width:100%;
+		height:0.44rem;
+		color:#fff;
+		font-size:0.18rem;
+		text-align:center;
+		line-height:0.44rem;
+		border-bottom:1px solid #d01717;
+	}
+	img{
+		width:0.12rem;
+		height:0.2rem;
+		position: absolute;
+		left:0.2rem;
+		top:0.12rem;
+	}
+}
+//--------------tab切换--------------------------
+.xian{
+	width:100%;
+	height:0.44rem;
+	position: relative;
+	.x_list{
+		width:100%;
+		height:0.44rem;
+		line-height:0.44rem;
+		display:-webkit-flex;
+		font-size:0.16rem;
+		background:#fff;
+		li{
+			-webkit-flex:1;
+			text-align:center;
+			color:#999;
+			a{
+				color:#999;
+			}
+		}
+		.router-link-active{
+			color:#e43134;
+		}
+	}
+	#border{
+		font-size:0;
+		width:0.52rem;
+		height:0.02rem;
+		position: absolute;
+		border-raiuds:0.01rem;
+		background:#e33234;
+		left:16.65%;
+		bottom:0;
+		margin-left:-0.26rem;
+		-webkit-transition:left 0.5s;
+	}
+}
+
+//--------------main--------------------------
+main{
+	width:100%;
+    height:100%;
+    position: relative;
+    -webkit-box-flex:1;
+    font-size:0.14rem;
+    overflow-x:hidden;
+    overflow-y:auto;
+    background:#f5f7f9;
+    -webkit-box-sizing:border-box;
+}
+#no{
+	text-align:center;
+	font-size:0.16rem;
+	color:#999;
+	margin-top:1.8rem;
+}
+
+//--------------切换内容--------------------------
+.one{
+	width:100%;
+	height:0.7rem;
+	border-bottom:1px solid #eeeeee;
+	background:#fff;
+	padding:0 5%;
+	padding-top:0.15rem;
+	&:first-child{
+		background:#fff url("../img/login/border.png") no-repeat;
+		background-position:0 -0.8rem;
+	}
+	.small{
+		width:100%;
+		color:#666666;
+		font-size:0.14rem;
+		em,time{
+			color:#333333;
+			font-style:normal;
+		}
+		i{
+			margin-right:0.1rem;
+			font-style:normal;
+		}
+		time{
+			float:right;
+		}
+		span{
+			color:#999999;
+		}
+	}
+	.top{
+		span{
+			float:right;
+		}
+	}
+	.bottom{
+		span{
+			float:left;
+			color:#45ba26;
+			margin-left:0.1rem;
+		}
+		em{
+			float:left;
+		}
+	}
+}
+.different{
+	padding:0 0.13rem;
+	background:#e43134;
+	border-radius:0.28rem;
+	color:#fff;
+}
+#replaces{
+	width:1.58rem;
+	height:1.13rem;
+	margin-top:0.51rem;
+	position: absolute;
+	left:50%;
+	margin-left:-0.89rem;
+}
+.pullrefresh{
+	margin:0;
+	padding:0;
+	.mui-pull-caption{
+		text-align:center;
+	}
+}
+
+
+
+
+

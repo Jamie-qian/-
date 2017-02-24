@@ -1,0 +1,170 @@
+//--------------header--------------------------
+header{
+	width:100%;
+	height:0.44rem;
+	border-bottom:1px solid #a51b1d;
+	background:#e43134;
+	position:relative;
+	h2{
+		color:#fff;
+		font-size:0.18rem;
+		text-align:center;
+		line-height:0.44rem;
+	}
+	img{
+		width:0.12rem;
+		height:0.2rem;
+		position: absolute;
+		left:0.2rem;
+		top:0.12rem;
+	}
+}
+
+//--------------main--------------------------
+main{
+	background:#f1f3f5;
+	height:100%;
+	width:100%;
+	position: relative;
+	overflow:hidden;
+	-webkit-box-flex:1;
+	.box{
+		width:100%;
+		height:0.8rem;
+		border-bottom:1px solid #eeeeee;
+		padding:0.12rem 0.2rem 0.09rem 0.2rem;
+		position: relative;
+		background:#fff;
+		h3{
+			font-size:0.16rem;
+			color:#333;
+			float:left;
+		}
+		ol{
+			float:left;
+			margin-left:0.2rem;
+			li{
+				font-size:0.12rem;
+				color:#999;
+				float:left;
+				margin-left:0.1rem;
+				line-height:0.24rem;
+			}
+		}
+		p{
+			width:0.2rem;
+			height:0.12rem;
+			position: absolute;
+			right:0.2rem;
+			top:0.3rem;
+			background: url("../img/lottery/ifs.png") no-repeat; 
+			background-size: 0.2rem 0.24rem;
+			background-position: left top;
+		}
+	}
+}
+//---------------彩票期数列表----------------
+.show_list{
+	width:100%;
+	height:auto;
+	margin-top: 0.08rem;
+	//--------------排列五--------------------------
+	.arrange_five{
+		ul{
+			width:100%;
+			clear:both;
+			margin-top:0.3rem;
+			li{
+				width:0.24rem;
+				height:0.24rem;
+				background:#e00000;
+				border-radius:50%;
+				float:left;
+				margin-left:0.1rem;
+				font-size:0.16rem;
+				text-align:center;
+				line-height:0.24rem;
+				color:#fff;
+				&:nth-child(1){
+					margin-left:0;
+				}
+			}
+		}
+	}
+	//--------------排列五详情--------------------------
+	.contain{
+		display:none;
+		//------------------本期销量-------------
+		#one_nums{
+			width:100%;
+			height:0.46rem;
+			font-size:0.14rem;
+			clear:both;
+			line-height:0.46rem;
+			text-align:center;
+			span{
+				color:#e00000;
+				margin-left:0.24rem;
+				font-size:0.16rem;
+			}
+		}
+		//-----------中奖列表--------------
+		.nav_list{
+			width:100%;
+			height:0.32rem;
+			display:-webkit-flex;
+			border-bottom:1px solid #eeeeee;
+			li{
+				-webkit-flex:1;
+				font-size:0.12rem;
+				text-align:center;
+				line-height:0.32rem;
+				color:#999999;
+			}
+		}
+		//-----------奖项列表--------------
+		.list{
+			width:100%;
+			height:0.32rem;
+			font-size:0.14rem;
+			display:-webkit-flex;
+			background:#fff;
+			border-bottom:1px solid #eeeeee;
+			li{
+				-webkit-flex:1;
+				font-size:0.14rem;
+				text-align:center;
+				line-height:0.32rem;
+				&:last-child{
+					color:#e00000;
+				}
+			}
+		}
+	}
+}
+
+//-----------去中奖--------------
+footer{
+    border-top: 0.0025rem solid #e5edf5;
+	width:100%;
+	height:0.49rem;
+	background: #fff;
+	#go-win{
+		width:90%;
+		height:0.4rem;
+		text-align:Center;
+		line-height:0.36rem;
+		background:#e43134;
+		border-radius:0.05rem;
+		margin-left:5%;
+		margin-top:0.05rem;
+		font-size:0.16rem;
+		a{
+			color:#fff;
+		}
+	}
+}
+
+
+
+

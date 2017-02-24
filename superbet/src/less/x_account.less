@@ -1,0 +1,152 @@
+//--------------header--------------------------
+header{
+	width:100%;
+	height:0.44rem;
+	background:#e43134;
+	position: relative;
+	h2{
+		width:100%;
+		height:0.44rem;
+		color:#fff;
+		font-size:0.18rem;
+		text-align:center;
+		line-height:0.44rem;
+		border-bottom:1px solid #d01717;
+	}
+	img{
+		width:0.12rem;
+		height:0.2rem;
+		position:absolute;
+		left:0.2rem;
+		top:0.12rem;
+	}
+}
+//--------------tab切换--------------------------
+.head{
+	width:100%;
+	height:0.82rem;
+	.xian{
+	width:100%;
+	height:0.44rem;
+	position: relative;
+	.x_list{
+		width:100%;
+		height:0.44rem;
+		line-height:0.44rem;
+		display:-webkit-flex;
+		font-size:0.16rem;
+		background:#fff;
+		li{
+			-webkit-flex:1;
+			text-align:center;
+			color:#999;
+			a{
+				color:#999;
+			}
+		}
+		.router-link-active{
+			color:#e43134;
+		}
+	}
+	#border{
+		font-size:0;
+		width:0.52rem;
+		height:0.02rem;
+		position: absolute;
+		border-raiuds:0.01rem;
+		background:#e33234;
+		left:16.65%;
+		bottom:0;
+		margin-left:-0.26rem;
+		-webkit-transition:left 0.5s;
+	}
+}
+.x_lists{
+	width:100%;
+	height:0.36rem;
+	line-height:0.36rem;
+	display:-webkit-flex;
+	font-size:0.14rem;
+	background:#fff url("../img/login/backj.png") repeat-X !important;
+	background-size:0.1rem 0.1rem !important;
+	background-position:left bottom;
+	li{
+		-webkit-flex:1;
+		text-align:center;
+		color:#50c135;
+		&:nth-child(1){
+			color:#e00000;
+		}
+	}
+	}
+}
+//--------------main--------------------------
+main{
+	width:100%;
+    height:100%;
+    position: relative;
+    -webkit-box-flex:1;
+    font-size:0.14rem;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    background:#f5f7f9;
+    -webkit-box-sizing:border-box;
+}
+//--------------切换内容--------------------------
+.one{
+	width:100%;
+	border-bottom:1px solid #eeeeee;
+	font-size:0.14rem;
+	background:#fff;
+	padding:0 5%;
+	padding-top:0.07rem;
+	position: relative;
+	.small{
+		width:100%;
+		height:0.25rem;
+		line-height:0.25rem;
+		color:#666666;
+		em{
+			font-size:0.16rem;
+			font-style:normal;
+			color:#666;
+		}
+		time{
+			color:#999999;
+			float:right;
+		}
+		span{
+			color:#45ba26;
+		}
+		.col{
+			color:#dc0002;
+		}
+		i{
+			font-size:0.14rem;
+			font-style:normal;
+		}
+	}
+	.top{
+		span{
+			float:right;
+		}
+	}
+	.bottom{
+		span{
+			float:left;
+			color:#45ba26;
+			margin-left:0.1rem;
+		}
+		em{
+			float:left;
+		}
+	}
+}
+.pullrefresh{
+	margin:0;
+	padding:0;
+	.mui-pull-caption{
+		text-align:center;
+	}
+}
+

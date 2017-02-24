@@ -1,0 +1,148 @@
+//--------------header--------------------------
+header{
+	width:100%;;
+	height:0.44rem;
+	border-bottom:1px solid #a51b1d;
+	background:#e43134;
+	position: relative;
+	h2{
+		width:100%;
+		height:0.44rem;
+		color:#fff;
+		font-size:0.18rem;
+		text-align:center;
+		line-height:0.44rem;
+	}
+	img{
+		width:0.12rem;
+		height:0.2rem;
+		position:absolute;
+		left:0.2rem;
+		top:0.12rem;
+	}
+	span{
+		position:absolute;
+		right:0.2rem;
+		top:0.15rem;;
+		font-size:0.12rem;
+		color:#fff;
+	}
+}
+//--------------tab切换--------------------------
+.xian{
+	width:100%;
+	height:0.44rem;
+	position: relative;
+	.x_list{
+		width:100%;
+		height:0.44rem;
+		line-height:0.44rem;
+		display:-webkit-flex;
+		font-size:0.16rem;
+		background:#fff;
+		li{
+			-webkit-flex:1;
+			text-align:center;
+			color:#999;
+			a{
+				color:#999;
+			}
+		}
+		.router-link-active{
+			color:#e43134;
+		}
+	}
+	#border{
+		font-size:0;
+		width:0.52rem;
+		height:0.02rem;
+		position: absolute;
+		border-radius:0.01rem;
+		background:#e33234;
+		left:25%;
+		bottom:0;
+		margin-left:-0.26rem;
+		-webkit-transition:left 0.5s;
+	}
+}
+
+//--------------main--------------------------
+main{
+	width:100%;
+    height:100%;
+    position: relative;
+    -webkit-box-flex:1;
+    font-size:0.14rem;
+    overflow-x:hidden;
+    background:#f5f7f9;
+    -webkit-box-sizing:border-box;
+}	
+
+//--------------切换内容--------------------------
+.one{
+	width:100%;
+	background:#fff;
+	margin-top:0.08rem;
+	padding:0 0.2rem;
+	h3{
+		width:100%;
+		padding-top:0.16rem;
+		font-size:0.18rem;
+		font-weight:normal;
+		span{
+			width:2.2rem;
+			display:inline-block;
+			overflow: hidden;
+			text-overflow:ellipsis;
+			white-space: nowrap;
+		}
+		time{
+			float:right;
+			color:#999999;
+			font-size:0.14rem;
+		}
+	}
+	p{
+		font-size:0.16rem;
+		padding:0.1rem 0;
+	}
+	em{
+		width:100%;
+		padding:0.1rem 0;
+		display:block;
+		font-size:0.16rem;
+		border-top:1px solid #eeeeee;
+	}
+}
+.test1{
+	color:#999;
+}
+.empty{
+	width:1.2rem;
+	height:1.5rem;
+	margin:0;
+	padding:0;
+	position: absolute;
+	left:50%;
+	margin-left:-0.6rem;
+	top:20%;
+	display:none;
+	#emptyimg{
+		width:1.15rem;
+		height:0.8rem;
+	}
+	p{
+		width:100%;
+		font-size:0.14rem;
+		text-align:center;
+		margin-top:0.1rem;
+	}
+}
+
+.pullrefresh{
+	margin:0;
+	padding:0;
+	.mui-pull-caption{
+		text-align:center;
+	}
+}
