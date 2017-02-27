@@ -2,7 +2,7 @@
 	<div>
 		<header class="ps">
 			<router-link to="/index">
-				<img src="../qietu/fanhui.png"/>
+				<img src="../img/qietu/fanhui.png"/>
 			</router-link>
 			<p v-showmoshi>排列三&nbsp;-&nbsp;<span class="moshi">直选</span></p>
 			<div class="moree">

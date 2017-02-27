@@ -2,7 +2,7 @@
 	<div>
 		<header class="fucai">
 			<router-link to="/index">
-				<img src="../qietu/fanhui.png" />
+				<img src="../img/qietu/fanhui.png" />
 			</router-link>
 			<p v-showmoshi>福彩&nbsp;3D&nbsp;-&nbsp;<span class="moshi">直选型</span></p>
 			<div class="moree">

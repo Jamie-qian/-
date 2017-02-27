@@ -2,7 +2,7 @@
 	<div>
 		<header class="pw">
 			<router-link to="/index">
-					<img src="../qietu/fanhui.png" />
+					<img src="../img/qietu/fanhui.png" />
 				</router-link>
 			<p>排列五</p>
 			<i v-about class="hide">

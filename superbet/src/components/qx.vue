@@ -2,7 +2,7 @@
 	<div>
 		<header class="qx">
 			<router-link to="/index">
-				<img src="../qietu/fanhui.png"/>
+				<img src="../img/qietu/fanhui.png"/>
 			</router-link>
 			<p>七星彩</p>
 			<i v-about class="hide">

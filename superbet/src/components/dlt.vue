@@ -2,7 +2,7 @@
 	<div>
 		<header class="dlt" >
 			<router-link to="/index">
-				<img src="../qietu/fanhui.png"/>
+				<img src="../img/qietu/fanhui.png"/>
 			</router-link>
 			<p v-showmoshi>大乐透&nbsp;-&nbsp;<span class="moshi">普通玩法</span></p>
 			<div class="moree">

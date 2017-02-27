@@ -31,12 +31,12 @@
 						<img src="../img/footer/fanhui@3x.png"/>
 					</li>
 					<li>
-						<img src="../img2/wx.png"/>
+						<img src="../img/img2/wx.png"/>
 						<span>微信支付</span>
 						<img src="../img/footer/fanhui@3x.png"/>
 					</li>
 					<li>
-						<img src="../img2/QQ.png"/>
+						<img src="../img/img2/QQ.png"/>
 						<span>QQ钱包支付</span>
 						<img src="../img/footer/fanhui@3x.png"/>
 					</li>

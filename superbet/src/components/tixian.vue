@@ -52,10 +52,10 @@
 					<ul>
 						<p>注意事项</p>
 						<li>
-							<img src="../my/youxiaoxi.png"/>
+							<img src="../img/my/youxiaoxi.png"/>
 						</li>
 						<li>
-							<img src="../my/youxiaoxi.png"/>
+							<img src="../img/my/youxiaoxi.png"/>
 						</li>
 					</ol>
 				</footer>

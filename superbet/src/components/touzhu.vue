@@ -2,7 +2,7 @@
 	<div>		
 		<header>
 			<router-link to="/dlt">
-				<img src="../qietu/fanhui.png"/>
+				<img src="../img/qietu/fanhui.png"/>
 			</router-link>
 			<p>投注单</p>
 		</header>
